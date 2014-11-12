@@ -12,6 +12,7 @@ URL: http://kde.org/
 License: GPL
 Group: System/Libraries
 BuildRequires: cmake
+BuildRequires: cmake(ECM)
 BuildRequires: ninja
 BuildArch: noarch
 
