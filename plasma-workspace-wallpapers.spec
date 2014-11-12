@@ -11,6 +11,7 @@ Summary: Additional wallpapers for KDE Plasma 5
 URL: http://kde.org/
 License: GPL
 Group: System/Libraries
+BuildRequires: cmake
 BuildRequires: ninja
 BuildArch: noarch
 
