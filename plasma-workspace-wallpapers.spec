@@ -23,7 +23,8 @@ Additional wallpapers for KDE Plasma 5
 %setup -qn %{name}-%{plasmaver}
 %apply_patches
 
-%cmake -G Ninja
+%cmake -G Ninja \
+	-DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
 
 %build
 ninja -C build
