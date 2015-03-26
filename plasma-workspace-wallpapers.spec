@@ -4,7 +4,7 @@
 %define debug_package %{nil}
 
 Name: plasma-workspace-wallpapers
-Version: 5.2.1
+Version: 5.2.2
 Release: 1
 Source0: ftp://ftp.kde.org/pub/kde/%{stable}/plasma/%{plasmaver}/%{name}-%{version}.tar.xz
 Summary: Additional wallpapers for KDE Plasma 5
@@ -17,7 +17,7 @@ BuildRequires: ninja
 BuildArch: noarch
 
 %description
-Additional wallpapers for KDE Plasma 5
+Additional wallpapers for KDE Plasma 5.
 
 %prep
 %setup -qn %{name}-%{plasmaver}
