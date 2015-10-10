@@ -77,6 +77,19 @@ Plasma 5 Dance of the Spirits wallpaper.
 
 #----------------------------------------------------------------------------
 
+%package -n plasma-wallpaper-eveningglow
+Summary:	Plasma 5 Evening Glow wallpaper
+Group:		Graphical desktop/KDE
+
+%description -n plasma-wallpaper-eveningglow
+Plasma 5 Evening Glow wallpaper.
+
+%files -n plasma-wallpaper-eveningglow
+%dir %{_datadir}/wallpapers/EveningGlow/
+%{_datadir}/wallpapers/EveningGlow/*
+
+#----------------------------------------------------------------------------
+
 %package -n plasma-wallpaper-fog
 Summary:	Plasma 5 Fog wallpaper
 Group:		Graphical desktop/KDE
