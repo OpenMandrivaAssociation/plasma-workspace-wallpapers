@@ -44,7 +44,7 @@ Additional wallpapers for KDE Plasma 5.
 
 %{expand:%(\
         for wallpaper in %wall_list; do\
-                echo "%%{expand:%%(sed -i -e "s!__LNAME__!$wallpaper!g" -e "s/$wallpaper/\L&/g" -e "s!__NAME__!$wallpaper!g" %{SOURCE1} 2> /dev/null)}";\
+                echo "%%{expand:%%(sed -i -e "s!__LNAME__!$wallpaper!g" -e "s!$wallpaper!\L&!g" -e "s!__NAME__!$wallpaper!g" %{SOURCE1} 2> /dev/null)}";\
         done\
         )
 }
