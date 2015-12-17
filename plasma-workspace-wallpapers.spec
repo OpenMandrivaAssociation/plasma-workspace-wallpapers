@@ -3,7 +3,7 @@
 %define plasmaver %(echo %{version} |cut -d. -f1-3)
 %define debug_package %{nil}
 
-%define wall_list Autumn BytheWater ColdRipple ColorfulCups DarkestHour FallenLeaf FlyingKonqui Kite OneStandsOut PastelHills Path
+%define wall_list Autumn BytheWater ColdRipple ColorfulCups DarkestHour EveningGlow FallenLeaf FlyingKonqui Grey Kite OneStandsOut PastelHills Path
 
 Name: plasma-workspace-wallpapers
 Version: 5.5.1
@@ -44,6 +44,7 @@ Additional wallpapers for KDE Plasma 5.
 
 %{expand:%(\
         for wallpaper in %wall_list; do\
+                echo "%%{expand:%%(sed -i -e "s!__LNAME__!$wallpaper!g" -e 's/$wallpaper/\L&/g' %{SOURCE1} 2> /dev/null)}";\
                 echo "%%{expand:%%(sed "s!__NAME__!$wallpaper!g" %{SOURCE1} 2> /dev/null)}";\
         done\
         )

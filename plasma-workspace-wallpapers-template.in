@@ -1,13 +1,13 @@
-%package -n %{name}-__NAME__
+%package -n %{name}-__LNAME__
 Summary:        Plasma 5 __NAME__  wallpaper
 Url:		http://www.kde.org
 License:	GPL
 Group:          Graphical desktop/KDE
 BuildArch:	noarch
 
-%description -n %{name}-__NAME__
+%description -n %{name}-__LNAME__
 Plasma 5 __NAME__ wallpaper.
 
-%files -n %{name}-__NAME__
+%files -n %{name}-__LNAME__
 %dir %{_datadir}/wallpapers/__NAME__/
 %{_datadir}/wallpapers/__NAME__/*
