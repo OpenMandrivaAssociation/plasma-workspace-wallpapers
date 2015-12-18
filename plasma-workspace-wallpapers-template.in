@@ -1,5 +1,5 @@
 %package -n %{name}-__LNAME__
-Summary:        Plasma 5 __NAME__  wallpaper
+Summary:        Plasma 5 __NAME__ wallpaper
 Url:		http://www.kde.org
 License:	GPL
 Group:          Graphical desktop/KDE
