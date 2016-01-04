@@ -36,6 +36,10 @@ Suggests: plasma-wallpaper-water
 Suggests: plasma-wallpaper-whiskergrass
 Obsoletes: kde-wallpapers < 2:15.08.3-3
 Provides: kde-wallpapers = 2:15.08.3-3
+Obsoletes: kdeartwork-wallpapers < 1:15.08.3-3
+Obsoletes: kdeartwork4-wallpapers < 1:4.14.3-2
+Provides: kdeartwork-wallpapers = 1:15.08.3-3
+Provides: kdeartwork4-wallpapers = 1:4.14.3-2
 
 %description
 Additional wallpapers for KDE Plasma 5.
