@@ -34,7 +34,8 @@ Suggests: plasma-wallpaper-tauplitz
 Suggests: plasma-wallpaper-walmendingerhorn
 Suggests: plasma-wallpaper-water
 Suggests: plasma-wallpaper-whiskergrass
-Obsoletes: kde-wallpapers <= 2:15.08.3-3
+Obsoletes: kde-wallpapers < 2:15.08.3-3
+Provides: kde-wallpapers = 2:15.08.3-3
 
 %description
 Additional wallpapers for KDE Plasma 5.
