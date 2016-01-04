@@ -7,7 +7,7 @@
 
 Name: plasma-workspace-wallpapers
 Version: 5.5.2
-Release: 2
+Release: 3
 Source0: http://download.kde.org/%{stable}/plasma/%{plasmaver}/%{name}-%{version}.tar.xz
 Source1: %{name}-template.in
 Summary: Additional wallpapers for KDE Plasma 5
@@ -34,6 +34,7 @@ Suggests: plasma-wallpaper-tauplitz
 Suggests: plasma-wallpaper-walmendingerhorn
 Suggests: plasma-wallpaper-water
 Suggests: plasma-wallpaper-whiskergrass
+Obsoletes: kde-wallpapers <= 2:15.08.3-3
 
 %description
 Additional wallpapers for KDE Plasma 5.
