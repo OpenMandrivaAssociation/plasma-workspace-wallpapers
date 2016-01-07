@@ -6,8 +6,8 @@
 %define wall_list Autumn BytheWater ColdRipple ColorfulCups DarkestHour EveningGlow FallenLeaf FlyingKonqui Grey Kite OneStandsOut PastelHills Path
 
 Name: plasma-workspace-wallpapers
-Version: 5.5.2
-Release: 3
+Version: 5.5.3
+Release: 1
 Source0: http://download.kde.org/%{stable}/plasma/%{plasmaver}/%{name}-%{version}.tar.xz
 Source1: %{name}-template.in
 Summary: Additional wallpapers for KDE Plasma 5
