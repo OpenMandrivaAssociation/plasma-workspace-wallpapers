@@ -5,7 +5,7 @@
 %define wall_list Autumn BytheWater ColdRipple ColorfulCups DarkestHour EveningGlow FallenLeaf FlyingKonqui Grey Kite OneStandsOut PastelHills Path
 
 Name: plasma-workspace-wallpapers
-Version: 5.6
+Version: 5.6.0
 Release: 1
 Source0: http://download.kde.org/%{stable}/plasma/%{plasmaver}/%{name}-%{version}.tar.xz
 Source1: %{name}-template.in
