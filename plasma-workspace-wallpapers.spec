@@ -14,6 +14,8 @@ URL: http://kde.org/
 License: GPL
 Group: System/Libraries
 BuildRequires: cmake(ECM)
+BuildRequires: qmake5
+BuildRequires: ninja
 BuildArch: noarch
 Suggests: plasma-wallpaper-alps
 Suggests: plasma-wallpaper-blueflower
