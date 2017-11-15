@@ -16,6 +16,7 @@ Group: System/Libraries
 BuildRequires: cmake(ECM)
 BuildRequires: qmake5
 BuildRequires: ninja
+BuildRequires: cmake(Qt5Core)
 BuildArch: noarch
 Suggests: plasma-wallpaper-alps
 Suggests: plasma-wallpaper-blueflower
