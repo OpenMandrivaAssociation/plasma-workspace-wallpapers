@@ -2,10 +2,10 @@
 %define plasmaver %(echo %{version} |cut -d. -f1-3)
 %define debug_package %{nil}
 
-%define wall_list Autumn BytheWater ColdRipple ColorfulCups DarkestHour EveningGlow FallenLeaf FlyingKonqui Grey Kite OneStandsOut PastelHills Path
+%define wall_list Autumn BytheWater Canopee Cascade ColdRipple ColorfulCups DarkestHour EveningGlow FallenLeaf FlyingKonqui Grey Kite Kokkini OneStandsOut Opal PastelHills Path summer_1am
 
 Name: plasma-workspace-wallpapers
-Version: 5.14.5
+Version: 5.14.90
 Release: 1
 Source0: http://download.kde.org/%{stable}/plasma/%{plasmaver}/%{name}-%{version}.tar.xz
 Source1: %{name}-template.in
