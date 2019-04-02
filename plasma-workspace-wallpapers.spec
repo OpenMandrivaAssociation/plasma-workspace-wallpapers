@@ -5,8 +5,8 @@
 %define wall_list Autumn BytheWater Canopee Cascade ColdRipple ColorfulCups DarkestHour EveningGlow FallenLeaf FlyingKonqui Grey Kite Kokkini OneStandsOut Opal PastelHills Path summer_1am
 
 Name: plasma-workspace-wallpapers
-Version: 5.15.3
-Release: 2
+Version: 5.15.4
+Release: 1
 Source0: http://download.kde.org/%{stable}/plasma/%{plasmaver}/%{name}-%{version}.tar.xz
 Source1: %{name}-template.in
 Summary: Additional wallpapers for KDE Plasma 5
