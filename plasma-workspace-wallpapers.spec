@@ -5,7 +5,7 @@
 %define wall_list Autumn BytheWater Canopee Cascade Cluster ColdRipple ColorfulCups DarkestHour Elarun EveningGlow FallenLeaf FlyingKonqui Grey Kite Kokkini OneStandsOut Opal PastelHills Path SafeLanding summer_1am
 
 Name: plasma-workspace-wallpapers
-Version: 5.17.2
+Version: 5.17.3
 Release: 1
 Source0: http://download.kde.org/%{stable}/plasma/%{plasmaver}/%{name}-%{version}.tar.xz
 Source1: %{name}-template.in
