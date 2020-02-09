@@ -2,11 +2,11 @@
 %define plasmaver %(echo %{version} |cut -d. -f1-3)
 %define debug_package %{nil}
 
-%define wall_list Autumn BytheWater Canopee Cascade Cluster ColdRipple ColorfulCups DarkestHour Elarun EveningGlow FallenLeaf FlyingKonqui Grey Kite Kokkini OneStandsOut Opal PastelHills Path SafeLanding summer_1am
+%define wall_list Autumn BytheWater Canopee Cascade Cluster ColdRipple ColorfulCups DarkestHour Elarun EveningGlow FallenLeaf FlyingKonqui Grey IceCold Kite Kokkini OneStandsOut Opal PastelHills Path SafeLanding summer_1am
 
 Name: plasma-workspace-wallpapers
-Version: 5.17.5
-Release: 2
+Version: 5.18.0
+Release: 1
 Source0: http://download.kde.org/%{stable}/plasma/%{plasmaver}/%{name}-%{version}.tar.xz
 Source1: %{name}-template.in
 Summary: Additional wallpapers for KDE Plasma 5
@@ -18,24 +18,11 @@ BuildRequires: qmake5
 BuildRequires: ninja
 BuildRequires: cmake(Qt5Core)
 BuildArch: noarch
-Suggests: plasma-wallpaper-alps
-Suggests: plasma-wallpaper-blueflower
-Suggests: plasma-wallpaper-danceofthespirits
-Suggests: plasma-wallpaper-fog
-Suggests: plasma-wallpaper-forestfog
-Suggests: plasma-wallpaper-foresthouse
-Suggests: plasma-wallpaper-gereatheron
-Suggests: plasma-wallpaper-greenleaves
-Suggests: plasma-wallpaper-grey
-Suggests: plasma-wallpaper-indiansummer
-Suggests: plasma-wallpaper-landmannalaugar
-Suggests: plasma-wallpaper-poppy
-Suggests: plasma-wallpaper-spray
-Suggests: plasma-wallpaper-sunset
-Suggests: plasma-wallpaper-tauplitz
-Suggests: plasma-wallpaper-walmendingerhorn
-Suggests: plasma-wallpaper-water
-Suggests: plasma-wallpaper-whiskergrass
+%{expand:%(\
+        for wallpaper in %wall_list; do\
+		echo "Suggests: plasma-wallpaper-$(echo ${wallpaper}|tr A-Z a-z)"
+	done\
+)}
 Obsoletes: kde-wallpapers < 2:15.08.3-3
 Provides: kde-wallpapers = 2:15.08.3-3
 Obsoletes: kdeartwork-wallpapers < 1:15.08.3-3
