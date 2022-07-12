@@ -4,8 +4,8 @@
 %define wall_list Altai Autumn BytheWater Canopee Cascade Cluster ColdRipple ColorfulCups DarkestHour Elarun EveningGlow FallenLeaf Flow FlyingKonqui Grey Honeywave IceCold Kite Kokkini MilkyWay OneStandsOut Opal PastelHills Patak Path Shell summer_1am Volna
 
 Name: plasma-workspace-wallpapers
-Version: 5.25.2
-Release: 1
+Version:	5.25.3
+Release:	1
 Source0: http://download.kde.org/%{stable}/plasma/%{plasmaver}/%{name}-%{version}.tar.xz
 Source1: %{name}-template.in
 Summary: Additional wallpapers for KDE Plasma 5
