@@ -1,0 +1,13 @@
+%package -n %{name}-__LNAME__
+Summary:        Plasma 6 __NAME__ wallpaper
+Url:		http://www.kde.org
+License:	GPL
+Group:          Graphical desktop/KDE
+BuildArch:	noarch
+
+%description -n %{name}-__LNAME__
+Plasma 6 __NAME__ wallpaper.
+
+%files -n %{name}-__LNAME__
+%dir %{_datadir}/wallpapers/__NAME__/
+%{_datadir}/wallpapers/__NAME__/*
