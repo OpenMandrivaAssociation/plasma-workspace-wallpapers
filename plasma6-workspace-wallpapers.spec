@@ -5,8 +5,8 @@
 %define wall_list Altai Autumn BytheWater Canopee Cascade Cluster ColdRipple ColorfulCups DarkestHour Elarun EveningGlow FallenLeaf Flow FlyingKonqui Grey Honeywave IceCold Kay Kite Kokkini MilkyWay OneStandsOut Opal PastelHills Patak Path SafeLanding Shell summer_1am Volna
 
 Name: plasma6-workspace-wallpapers
-Version:	5.27.80
-Release:	%{?git:0.%{git}.}2
+Version:	5.90.0
+Release:	%{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0:	https://invent.kde.org/plasma/plasma-workspace-wallpapers/-/archive/master/plasma-workspace-wallpapers-master.tar.bz2#/plasma-workspace-wallpapers-%{git}.tar.bz2
 %else
