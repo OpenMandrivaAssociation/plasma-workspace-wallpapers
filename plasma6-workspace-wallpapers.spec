@@ -2,10 +2,10 @@
 %define plasmaver %(echo %{version} |cut -d. -f1-3)
 #define git 20231104
 
-%define wall_list Altai Autumn BytheWater Canopee Cascade Cluster ColdRipple ColorfulCups DarkestHour Elarun EveningGlow FallenLeaf Flow FlyingKonqui Grey Honeywave IceCold Kay Kite Kokkini MilkyWay OneStandsOut Opal PastelHills Patak Path SafeLanding Shell summer_1am Volna
+%define wall_list Altai Autumn BytheWater Canopee Cascade Cluster ColdRipple ColorfulCups DarkestHour Elarun EveningGlow FallenLeaf Flow FlyingKonqui Grey Honeywave IceCold Kay Kite Kokkini MilkyWay Mountain OneStandsOut Opal PastelHills Patak Path SafeLanding Shell summer_1am Volna
 
 Name: plasma6-workspace-wallpapers
-Version:	5.92.0
+Version:	5.93.0
 Release:	%{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0:	https://invent.kde.org/plasma/plasma-workspace-wallpapers/-/archive/master/plasma-workspace-wallpapers-master.tar.bz2#/plasma-workspace-wallpapers-%{git}.tar.bz2
