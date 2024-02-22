@@ -1,13 +1,13 @@
 %define stable %([ "$(echo %{version} |cut -d. -f2)" -ge 80 -o "$(echo %{version} |cut -d. -f3)" -ge 80 ] && echo -n un; echo -n stable)
 %define plasmaver %(echo %{version} |cut -d. -f1-3)
-%define git 20240217
+%define git 20240222
 %define gitbranch Plasma/6.0
 %define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
 
 %define wall_list Altai Autumn BytheWater Canopee Cascade Cluster ColdRipple ColorfulCups DarkestHour Elarun EveningGlow FallenLeaf Flow FlyingKonqui Grey Honeywave IceCold Kay Kite Kokkini MilkyWay Mountain OneStandsOut Opal PastelHills Patak Path SafeLanding Shell summer_1am Volna
 
 Name: plasma6-workspace-wallpapers
-Version:	5.94.0
+Version:	6.0.0
 Release:	%{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0:	https://invent.kde.org/plasma/plasma-workspace-wallpapers/-/archive/%{gitbranch}/plasma-workspace-wallpapers-%{gitbranchd}.tar.bz2#/plasma-workspace-wallpapers-%{git}.tar.bz2
