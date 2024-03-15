@@ -8,7 +8,7 @@
 
 Name: plasma6-workspace-wallpapers
 Version:	6.0.2
-Release:	%{?git:0.%{git}.}1
+Release:	%{?git:0.%{git}.}2
 %if 0%{?git:1}
 Source0:	https://invent.kde.org/plasma/plasma-workspace-wallpapers/-/archive/%{gitbranch}/plasma-workspace-wallpapers-%{gitbranchd}.tar.bz2#/plasma-workspace-wallpapers-%{git}.tar.bz2
 %else
