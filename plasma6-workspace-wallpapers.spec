@@ -18,7 +18,7 @@ Source0: http://download.kde.org/%{stable}/plasma/%{plasmaver}/plasma-workspace-
 %endif
 Source1: plasma6-workspace-wallpapers-template.in
 Summary: Additional wallpapers for KDE Plasma 6
-URL: http://kde.org/
+URL: https://kde.org/
 License: GPL
 Group: System/Libraries
 BuildRequires: cmake(ECM)
