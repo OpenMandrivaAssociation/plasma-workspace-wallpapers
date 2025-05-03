@@ -4,6 +4,8 @@ Url:		http://www.kde.org
 License:	GPL
 Group:          Graphical desktop/KDE
 BuildArch:	noarch
+# Renamed after 6.0 2025-05-03
+Obsoletes:	plasma6-workspace-wallpapers-__LNAME__ < %{EVRD}
 
 %description -n %{name}-__LNAME__
 Plasma 6 __NAME__ wallpaper.
