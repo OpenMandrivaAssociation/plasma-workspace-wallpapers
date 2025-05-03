@@ -35,6 +35,7 @@ BuildArch: noarch
 
 BuildSystem: cmake
 BuildOption: -DBUILD_QCH:BOOL=ON
+BuildOption: -DBUILD_WITH_QT6:BOOL=ON
 BuildOption: -DKDE_INSTALL_USE_QT_SYS_PATHS:BOOL=ON
 
 %description
