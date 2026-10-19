@@ -6,7 +6,7 @@
 %define gitbranch Plasma/6.0
 %define gitbranchd %(echo %{gitbranch} |sed -e "s,/,-,g")
 
-%define wall_list Altai Autumn BytheWater Canopee Cascade Cluster Coast ColdRipple ColorfulCups DarkestHour Elarun EveningGlow FallenLeaf Flow FlyingKonqui Grey Honeywave IceCold Kay Kite Kokkini MilkyWay Mountain Nexus Nuvole OneStandsOut Opal Orionids PastelHills Patak Path SafeLanding ScarletTree Shell Sub-Arctic summer_1am Volna
+%define wall_list Altai Autumn BytheWater Canopee Cascade Cluster Coast ColdRipple ColorfulCups DarkestHour Elarun EveningGlow FallenLeaf Flow FlyingKonqui Grey Honeywave IceCold Kay Kite Kokkini MilkyWay Mountain Nexus Nuvole OneStandsOut Opal Orionids PastelHills Patak Path SafeLanding ScarletTree Shell Sub-Arctic summer_1am Volna Waterfall
 
 Name: plasma-workspace-wallpapers
 Version:	6.8.0
